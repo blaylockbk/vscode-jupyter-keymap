@@ -115,6 +115,11 @@
                 "key": "shift+enter",
                 "when": "editorTextFocus && inputFocus && notebookEditorFocused || notebookCellListFocused && notebookCellType == 'code'",
                 "command": "notebook.cell.executeAndSelectBelow"
+            },
+            {
+                "key": "0 0",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "jupyter.notebookeditor.restartkernel"
             }
         ]
     }
