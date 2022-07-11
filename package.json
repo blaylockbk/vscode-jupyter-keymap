@@ -120,6 +120,11 @@
                 "key": "0 0",
                 "when": "notebookEditorFocused && !inputFocus",
                 "command": "jupyter.notebookeditor.restartkernel"
+            },
+            {
+                "key": "i i",
+                "when": "notebookEditorFocused && !inputFocus",
+                "command": "jupyter.notebookeditor.interruptkernel"
             }
         ]
     }
